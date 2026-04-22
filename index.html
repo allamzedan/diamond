@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamondFlights.com | Private Acquisition Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,700&family=Inter:wght@100;300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --accent: #0ea5e9;
+            --glass: rgba(255, 255, 255, 0.03);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        body {
+            background-color: #050505;
+            color: #fafafa;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .serif-display {
+            font-family: 'Bodoni Moda', serif;
+            letter-spacing: -0.03em;
+        }
+
+        /* Hero Mesh Background */
+        .bg-mesh {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 50% -10%, rgba(14, 165, 233, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 0% 100%, rgba(14, 165, 233, 0.05) 0%, transparent 40%);
+            z-index: -1;
+        }
+
+        /* Premium Diamond Shine */
+        .diamond-shine {
+            background: linear-gradient(135deg, #ffffff 20%, #94a3b8 50%, #ffffff 80%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 5s linear infinite;
+        }
+
+        @keyframes shine {
+            to { background-position: 200% center; }
+        }
+
+        .glass-panel {
+            background: var(--glass);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .glass-panel:hover {
+            border-color: rgba(14, 165, 233, 0.4);
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateY(-5px);
+        }
+
+        .btn-main {
+            position: relative;
+            background: #ffffff;
+            color: #000;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .btn-main:hover {
+            background: var(--accent);
+            color: #fff;
+            box-shadow: 0 0 30px rgba(14, 165, 233, 0.4);
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Subtle Noise Texture */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            opacity: 0.03;
+            z-index: 9999;
+            pointer-events: none;
+            background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-mesh"></div>
+
+    <nav class="p-10 flex justify-between items-center max-w-7xl mx-auto w-full">
+        <div class="text-[10px] tracking-[0.5em] font-semibold text-slate-500 uppercase">Premium Digital Asset</div>
+        <div class="hidden md:block h-[1px] flex-grow mx-10 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+        <a href="mailto:domains@mazajcontent.com" class="text-[11px] tracking-widest text-slate-300 hover:text-sky-400 transition-all uppercase border-b border-white/10 pb-1">Direct Inquiry</a>
+    </nav>
+
+    <header class="min-h-[90vh] flex flex-col items-center justify-center px-6 text-center">
+        <div class="reveal active">
+            <div class="mb-6 py-1 px-4 inline-block border border-sky-500/20 bg-sky-500/5 rounded-full">
+                <span class="text-[10px] uppercase tracking-[0.4em] text-sky-400 font-bold">Category Killer Domain</span>
+            </div>
+            
+            <h1 class="serif-display text-7xl md:text-9xl font-bold mb-6 diamond-shine">
+                DiamondFlights.com
+            </h1>
+            
+            <p class="max-w-3xl mx-auto text-lg md:text-2xl font-light text-slate-400 leading-relaxed mb-12">
+                Own the <span class="text-white font-medium">ultimate digital identity</span> in private aviation. 
+                A rare commercial asset engineered for instant authority, high-intent lead acquisition, and market dominance.
+            </p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-6 reveal active" style="transition-delay: 0.3s;">
+            <a href="https://www.afternic.com/domain/diamondflights.com" target="_blank" class="btn-main px-14 py-5 font-bold text-xs uppercase tracking-[0.2em]">
+                Acquire via Afternic
+            </a>
+            <a href="mailto:domains@mazajcontent.com" class="glass-panel px-14 py-5 text-white text-xs uppercase tracking-[0.2em] font-bold">
+                Direct Negotiation
+            </a>
+        </div>
+
+        <div class="mt-20 reveal active" style="transition-delay: 0.5s;">
+            <p class="text-slate-600 text-[10px] uppercase tracking-[0.3em]">Secure Transaction Guaranteed via Tier-1 Escrow Services</p>
+        </div>
+    </header>
+
+    <section class="py-32 px-6 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="reveal">
+                <h2 class="serif-display text-4xl md:text-5xl mb-8 italic">The "Diamond" Standard of Acquisition.</h2>
+                <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                    In the luxury aviation sector, brand name is the first filter of trust. <strong class="text-white">DiamondFlights.com</strong> is not just a URL; it is a defensive and offensive strategic asset.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4">
+                        <span class="text-sky-500 mt-1">✦</span>
+                        <p class="text-sm text-slate-300"><strong class="text-white">Instant Equity:</strong> Skip a decade of brand-building costs.</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="text-sky-500 mt-1">✦</span>
+                        <p class="text-sm text-slate-300"><strong class="text-white">Market Leverage:</strong> Outpace competitors in Search Engine Results (SERPs).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 gap-4 reveal">
+                <div class="glass-panel p-8">
+                    <p class="text-white font-bold mb-2 uppercase text-xs tracking-widest text-sky-400">Positioning</p>
+                    <p class="text-slate-400 text-sm italic">"Diamond tier" is the universal shorthand for excellence in aviation. This domain claims that tier globally.</p>
+                </div>
+                <div class="glass-panel p-8">
+                    <p class="text-white font-bold mb-2 uppercase text-xs tracking-widest text-sky-400">Conversion</p>
+                    <p class="text-slate-400 text-sm italic">
+High-intent, descriptive .com domains consistently outperform abstract branding in trust and conversion for premium services.
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32 bg-white/[0.01] border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 reveal">
+                <h2 class="serif-display text-4xl md:text-6xl mb-4">Commercial Deployment</h2>
+                <p class="text-slate-500 tracking-widest uppercase text-xs">Versatile applications for industry leaders</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass-panel p-10 reveal">
+                    <div class="text-3xl mb-6">01</div>
+                    <h4 class="text-white font-bold mb-4 tracking-tighter">Jet Charter Brokerage</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">The ultimate landing zone for high-net-worth individuals seeking private charter solutions.</p>
+                </div>
+                <div class="glass-panel p-10 reveal" style="transition-delay: 0.1s;">
+                    <div class="text-3xl mb-6">02</div>
+                    <h4 class="text-white font-bold mb-4 tracking-tighter">Elite Card Programs</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">Perfect digital home for "Diamond Level" jet card memberships and loyalty clubs.</p>
+                </div>
+                <div class="glass-panel p-10 reveal" style="transition-delay: 0.2s;">
+                    <div class="text-3xl mb-6">03</div>
+                    <h4 class="text-white font-bold mb-4 tracking-tighter">Concierge Services</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">Expansion into high-end lifestyle management and VIP airport ground services.</p>
+                </div>
+                <div class="glass-panel p-10 reveal" style="transition-delay: 0.3s;">
+                    <div class="text-3xl mb-6">04</div>
+                    <h4 class="text-white font-bold mb-4 tracking-tighter">Fractional Ownership</h4>
+                    <p class="text-slate-500 text-xs leading-relaxed">A prestigious brand for modern fleet sharing and ownership aircraft models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 text-center">
+        <div class="reveal">
+            <div class="max-w-2xl mx-auto px-6">
+                <h3 class="serif-display text-3xl mb-6 italic text-slate-300 underline underline-offset-8 decoration-sky-500/30">Once in a decade opportunity.</h3>
+                <p class="text-slate-500 text-sm leading-relaxed mb-10 italic">
+                    Premium aviation assets of this caliber rarely return to the public market once integrated into a corporate portfolio.
+                </p>
+                <a href="mailto:domains@mazajcontent.com" class="text-sky-400 font-bold uppercase tracking-widest text-xs hover:text-white transition-all">
+                    Request Portfolio Deck →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 border-t border-white/5 bg-black">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-10">
+            <div class="text-left">
+                <p class="text-[10px] uppercase tracking-[0.4em] text-slate-600 mb-2">Direct Correspondence</p>
+                <a href="mailto:domains@mazajcontent.com" class="text-2xl font-light text-white hover:text-sky-400 transition-all italic">
+                    domains@mazajcontent.com
+                </a>
+            </div>
+            
+            <div class="text-right flex flex-col items-end">
+                <div class="flex gap-6 mb-4">
+                    <span class="text-[10px] text-slate-500 border border-white/10 px-3 py-1">.COM</span>
+                    <span class="text-[10px] text-slate-500 border border-white/10 px-3 py-1">SECURE</span>
+                    <span class="text-[10px] text-slate-500 border border-white/10 px-3 py-1">PRIVATE</span>
+                </div>
+                <p class="text-[9px] text-slate-700 uppercase tracking-widest">
+                    &copy; 2026 DiamondFlights.com | Secure Escrow via Afternic
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll Reveal Logic
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // Interactive Background
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            document.querySelector('.bg-mesh').style.background = `
+                radial-gradient(circle at ${x * 100}% ${y * 100}%, rgba(14, 165, 233, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% -10%, rgba(14, 165, 233, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 0% 100%, rgba(14, 165, 233, 0.05) 0%, transparent 40%)
+            `;
+        });
+    </script>
+</body>
+</html>
